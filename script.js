@@ -45,3 +45,9 @@ foolBtn4.addEventListener('click', function(){
     main4.style.display = "none";
     foolDiv4.style.display = "block";
 });
+var key = document.getElementById("key");
+var main5 = document.getElementById("main5");
+key.addEventListener('click', function(){
+    main4.style.display = "none";
+    main5.style.display = "block";
+});

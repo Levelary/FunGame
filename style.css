@@ -1,0 +1,28 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: rgb(50, 144, 252);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+body {
+    width: 90vw;
+    height: 90vh;
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nextBtn {
+    position: fixed;
+    background-color: wheat;
+    bottom: 10px;
+    right: 10px;
+}
